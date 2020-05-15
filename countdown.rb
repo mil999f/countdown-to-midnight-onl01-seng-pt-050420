@@ -1,10 +1,16 @@
 #write your code here
+
 def countdown(n)
   loop do
     break if n == 0
-    puts "#{n} SECONDS!" 
+    puts "#{n} SECOND(S)!" 
     n -= 1
-    sleep(1)
+   
   end
+  
   "HAPPY NEW YEAR!"
+  
+  end
 end
+
+
